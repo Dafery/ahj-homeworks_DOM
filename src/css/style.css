@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 520px;
+  height: 520px;
+}
+
+.wrapper div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;  
+  background-color: #dfd0c7;
+  border: 2px solid #525252;
+  border-radius: 50%;
+}
